@@ -13,7 +13,8 @@
     "pg": "*"
   },
   "devDependencies": {
-    "@types/node": "^22",
+    "@types/node": "*",
+    "@types/pg": "*",
     "prettier": "^3",
     "typescript": "^5"
   }
