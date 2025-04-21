@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "zuplo": "^6"
+    "bcryptjs": "*",
+    "pg": "*"
   },
   "devDependencies": {
     "@types/node": "^22",
