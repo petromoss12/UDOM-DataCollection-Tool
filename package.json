@@ -1,21 +1,21 @@
 {
-  "name": "data-collection-app",
-  "version": "0.1.0",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "zuplo dev",
-    "test": "zuplo test"
-  },
-  "dependencies": {
-    "zuplo": "^6",
-    "bcryptjs": "*",
-    "pg": "*"
-  },
-  "devDependencies": {
-    "@types/node": "*",
-    "@types/pg": "*",
-    "prettier": "^3",
-    "typescript": "^5"
-  }
+   "name":"data-collection-app",
+   "version":"0.1.0",
+   "type":"module",
+   "private":true,
+   "scripts":{
+      "dev":"zuplo dev",
+      "test":"zuplo test"
+   },
+   "dependencies":{
+      "zuplo":"^6",
+      "bcryptjs":"*",
+      "pg":"*"
+   },
+   "devDependencies":{
+      "@types/node":"*",
+      "@types/pg":"*",
+      "prettier":"^3",
+      "typescript":"^5"
+   }
 }
