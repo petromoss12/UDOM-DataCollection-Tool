@@ -8,7 +8,7 @@
     "test": "zuplo test"
   },
   "dependencies": {
-    "zuplo": "^6"
+    "zuplo": "^6",
     "bcryptjs": "*",
     "pg": "*"
   },
