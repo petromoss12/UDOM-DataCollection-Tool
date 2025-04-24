@@ -45,7 +45,7 @@ export default async function (request: Request, context: any): Promise<Response
         );
       }
 
-      const query = `SELECT user_id, username, password FROM ${USERS_TABLE} WHERE username = $1`;
+      const query = `SELECT id, username, password FROM ${USERS_TABLE} WHERE username = $1`;
       const result = await client.query(query, [username]);
       const user = result.rows[0];
 
@@ -59,7 +59,7 @@ export default async function (request: Request, context: any): Promise<Response
           success: true,
           message: "Login successful",
           user: {
-            userID: user.user_id, // Assuming your user ID column is 'user_id'
+            userID: user.id, 
             username: user.username,
           },
           token: token,
