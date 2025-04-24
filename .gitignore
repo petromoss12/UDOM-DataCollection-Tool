@@ -7,4 +7,4 @@ node_modules/
 .husky/_
 
 # OS Stuff
-.DS_Store
+.DS_Storenode_modules/
